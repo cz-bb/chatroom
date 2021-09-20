@@ -1,0 +1,21 @@
+.main{
+    width: 1000px;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.main div{
+    width: 100px;
+    height: 100px;
+}
+.f{
+    background-color: rgb(218, 118, 118);
+}
+.s{
+    background-color: rgb(47, 168, 168);
+}
+.t{
+    background-color: greenyellow;
+}

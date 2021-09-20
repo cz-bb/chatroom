@@ -1,0 +1,87 @@
+.form_outside {
+  height: 100vh;
+  background-color: skyblue;
+  /* border: solid 2px #06fafa; */
+}
+.form {
+  margin: auto;
+  top: 20%;
+  width: 40vh;
+  height: 40vh;
+  background-color: rgb(105, 181, 253);
+  border-radius: 25px;
+  border: solid 5px #06fafa;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.form_img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.form_img img {
+  width: 100px;
+  height: 100px;
+}
+.form_input {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.form_input label{
+    color: white;
+}
+.form_input input {
+  width: 70%;
+  height: 30px;
+  border: none;
+  border-radius: 15px;
+}
+.name {
+  margin-bottom: 20px;
+  /* text-align:center;
+  vertical-align:middle; */
+}
+.name input{
+  text-align:center;
+  vertical-align:middle; 
+}
+.pwd input{
+  text-align:center;
+  vertical-align:middle;
+}
+.form_btn {
+  width: 200px;
+  /* background-color: #fff; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.form_btn button{
+    border: none;
+    border-radius: 15px;
+    width: 70px;
+    height: 30px;
+    color: rgb(54, 5, 134);
+    background-color: #06fafa;
+}
+.form_btn button:hover{
+    animation: btn_size linear 2s infinite;
+}
+@keyframes btn_size {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.3);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }

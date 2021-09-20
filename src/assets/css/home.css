@@ -1,0 +1,43 @@
+.home{
+    height: 100vh;
+    /* background-color: rgb(73, 197, 247); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    overflow: hidden;
+
+}
+.bg_img{
+    position:absolute;
+    z-index: -1;
+}
+.bg_img img{
+    width: 100vw;
+    height: 100vh;
+}
+header{
+    /* background-color: rgb(235, 20, 20); */
+    flex: 0.8;
+}
+.centre{
+    /* background-color: rgb(15, 202, 93); */
+    flex: 8;
+    display: flex;
+    justify-content: space-between;
+    border: solid 1px gray;
+}
+aside{
+    background-color: skyblue;
+    flex: 1;
+    border: solid 1px gray;
+    overflow: auto;  
+}
+article{
+    /* background-color: rgb(70, 56, 56); */
+    flex:2.5;
+}
+footer{
+    background-color: rgb(21, 25, 224);
+    flex: 0.8;
+}

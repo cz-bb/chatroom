@@ -1,0 +1,84 @@
+.title{
+    /* width: 35%; */
+    height: 80px;
+    background-color: rgb(140, 222, 247);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border-radius:10px; */
+}
+.user_info{
+    width: 35%;
+    /* background-color: #fff; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: green; */
+}
+.head_img img{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    position: relative;
+    left: 10px;
+}
+.info_list{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    font-size: 15px;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    /* background-color: pink; */
+    /* position: relative; */
+}
+.info_list div{
+    position: relative;
+    left: 20px;
+}
+.setting{
+    width: 25%;
+    /* background-color: rgb(195, 248, 134); */
+    display: flex;
+    justify-content: space-between  ;
+    align-items: center;
+}
+.setting_input{
+    width:75%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    /* background-color: rgb(245, 114, 114);    */
+}
+.setting_input input{
+    width: 110%;
+    height: 30px;
+    border-radius: 25px;
+    border: none;
+    text-align:center;
+    vertical-align:middle;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.setting_input img{
+    width: 20px;
+    height: 20px;
+    /* float:left; */
+    position: relative;
+    right:20px ;
+}
+.setting_icon{
+    width: 80px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: #fff; */
+    position: relative;
+    right: 20px;
+}
+.setting img[name='function']{
+    width: 25px;
+    height: 25px;
+}
